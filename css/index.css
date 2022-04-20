@@ -1,0 +1,133 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #EFF6EE;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #273043;
+    transform: skewY(-5deg);
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 15%;
+    right: 10%;
+    }
+
+.name .content .P1 {
+    color: #DD0426;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .content .P2 {
+    color: #F02D3A;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name .img {
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 105%;
+    height: 210px;
+}
+
+.Info {
+    width: 90%;
+    height: auto;
+    background: #273043;
+    margin: 7% auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Info .tituloseccion {
+    color: #F02D3A;
+    font-family: 'Nunito', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 3px #EFF6EE solid;
+
+}
+
+.Info .tituloinfo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+
+.Info .infoinfo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.Info .dire {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.Info .direinfo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.Info .correo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.Info .correoinfo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: large;   
+    display: inline;
+}
+.Info .telefono {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.Info .telefonoinfo {
+    color: #EFF6EE;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
